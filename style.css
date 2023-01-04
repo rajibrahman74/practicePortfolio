@@ -108,7 +108,7 @@ section > .hero-section {
 
 .hero-section > .hero-content > .hero-title {
   font-weight: 700;
-  font-size: 80px;
+  font-size: 75px;
   line-height: 116px;
   color: #181818;
 }
@@ -147,8 +147,8 @@ section > .hero-section {
 }
 
 section .hero-section > img {
-  width: 560px;
-  height: 610px;
+  width: 580px;
+  height: 650px;
 }
 
 /*
@@ -284,6 +284,78 @@ Resume section
 
 .resume-item .description {
   font-weight: 400;
-  font-size: 15px;;
+  font-size: 15px;
   color: #757575;
+}
+
+.resume-button {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 113px;
+}
+.resume-button .resume-submite-btn {
+  padding: 13px 11px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+  color: #ffffff;
+  background: #fd6e0a;
+  border-radius: 5px;
+  border: none;
+}
+
+/*
+Contact sectoin  and footer
+ */
+
+footer {
+  background: #fff8f3;
+  padding-top: 130px;
+  padding-bottom: 20px;
+}
+
+.contact {
+  display: flex;
+  gap: 120px;
+  margin: 0 auto;
+}
+
+.connect .footer-description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #474747;
+  margin-bottom: 30px;
+}
+
+.connect a {
+  text-decoration: none;
+  width: 30px;
+  height: 30px;
+  margin-right: 8px;
+}
+
+.footer-title {
+  margin-bottom: 28px;
+}
+
+.contact input[type="text"],
+input[type="email"],
+textarea {
+  margin-bottom: 24px;
+  border: none;
+  width: 100%;
+  padding: 18px 30px;
+}
+
+.message .message-btn {
+  padding: 8px 15px;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 27px;
+  color: #ffffff;
+  background: #fd6e0a;
+  border-radius: 5px;
+  border: none;
 }
