@@ -60,9 +60,8 @@ Header and navigation styles
 }
 
 .nav-title {
-  font-weight: 800;
+  font-weight: 900;
   font-size: 45px;
-  line-height: 61px;
   color: #181818;
 }
 
@@ -199,6 +198,10 @@ About me section styles
 Skills section
 */
 
+.skills {
+  margin-bottom: 130px;
+}
+
 .skills .my-skills-discription {
   font-weight: 400;
   font-size: 18px;
@@ -240,5 +243,47 @@ Skills section
   font-weight: 400;
   font-size: 16px;
   line-height: 28px;
+  color: #757575;
+}
+
+/*
+Resume section 
+ */
+
+.resume .resume-content {
+  display: flex;
+  gap: 70px;
+  margin-top: 110px;
+}
+
+.my-education,
+.my-experience {
+  font-weight: 700;
+  font-size: 27px;
+  color: #474747;
+}
+
+.resume-item {
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.resume-item .title {
+  font-weight: 700;
+  font-size: 20px;
+  color: #474747;
+  margin: 30px 0 10px 0;
+}
+
+.resume-item .sub-title {
+  font-weight: 600;
+  font-size: 17px;
+  margin-bottom: 20px;
+  color: #757575;
+}
+
+.resume-item .description {
+  font-weight: 400;
+  font-size: 15px;;
   color: #757575;
 }
