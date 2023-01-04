@@ -36,6 +36,13 @@ Common styles
 Header and navigation styles
  */
 
+.header {
+  background: #fff8f3;
+  background-image: url("images/header_bg.png"), url("images/developer.png");
+  background-repeat: no-repeat;
+  background-position: bottom right, left;
+}
+
 .nav-title {
   font-weight: 800;
   font-size: 45px;
@@ -124,6 +131,6 @@ section > .hero-section {
 }
 
 section .hero-section > img {
-  width: 510px;
-  height: 560px;
+  width: 560px;
+  height: 610px;
 }
