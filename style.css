@@ -47,6 +47,7 @@ nav {
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
+  padding: 13px 0;
 }
 
 nav ul {
@@ -61,4 +62,68 @@ nav li {
 
 nav li button {
   padding: 10px 25px;
+}
+
+/*
+hero section styles 
+ */
+
+section > .hero-section {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  align-items: center;
+  padding: 25px 0;
+}
+
+.hero-section > .hero-content > .hero-sub-title {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 61px;
+  color: #474747;
+  margin-bottom: 5px;
+}
+
+.hero-section > .hero-content > .hero-title {
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 116px;
+  color: #181818;
+}
+
+.hero-section > .hero-content > .hero-discription {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #757575;
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+
+.hero-section > .hero-content > .hero-btn > .color-btn {
+  padding: 13px 11px;
+  margin-right: 30px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+  text-align: center;
+  color: #ffffff;
+  background: #fd6e0a;
+  border-radius: 5px;
+  border: none;
+}
+.hero-section > .hero-content > .hero-btn > .white-btn {
+  padding: 13px 11px;
+  border: 1px solid #fd6e0a;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+  text-align: center;
+  color: #fd6e0a;
+  border-radius: 5px;
+}
+
+section .hero-section > img {
+  width: 510px;
+  height: 560px;
 }
