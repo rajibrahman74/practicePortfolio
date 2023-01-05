@@ -165,6 +165,7 @@ section > .hero-section {
   background: #fd6e0a;
   border-radius: 5px;
   border: none;
+  cursor: pointer;
 }
 .hero-section > .hero-content > .hero-btn > .white-btn {
   padding: 13px 11px;
@@ -175,6 +176,7 @@ section > .hero-section {
   text-align: center;
   color: #fd6e0a;
   border-radius: 5px;
+  cursor: pointer;
 }
 
 section .hero-section > img {
@@ -334,6 +336,7 @@ Resume section
   background: #fd6e0a;
   border-radius: 5px;
   border: none;
+  cursor: pointer;
 }
 
 /*
@@ -389,4 +392,5 @@ textarea {
   background: #fd6e0a;
   border-radius: 5px;
   border: none;
+  cursor: pointer;
 }
